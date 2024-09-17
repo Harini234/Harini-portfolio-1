@@ -70,7 +70,7 @@ function Skills() {
         techstack in Software domain👨‍💻 by referring some of the good articles from internet, Notably from daily.dev🙂.I am currently
         working in a team at C# related domain.
         Last but not the least, I have great interest and passion in delivering and articulating my thought process by means of public speaking.
-        Recently I also came across opportunity at TEDex and I see this as a great opportunity to present my views globally!
+        Recently I also came across opportunity at TEDx and I see this as a great opportunity to present my views globally!
       </p>
     </section>
   );
