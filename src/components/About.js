@@ -56,7 +56,7 @@ function About() {
             And I am
             <span id="ani" ref={aniRef}></span>
           </p>
-          <a href={`${process.env.PUBLIC_URL}/Harini_CV.pdf`}
+          <a href={`${process.env.PUBLIC_URL}/Harini Viswanathan CV.pdf`}
         
             className="btn"
             download="Harini_Linkedin_Resume.pdf">
