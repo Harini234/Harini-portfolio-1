@@ -59,7 +59,7 @@ function About() {
           <a href={`${process.env.PUBLIC_URL}/Harini Viswanathan CV.pdf`}
         
             className="btn"
-            download="Harini_Linkedin_Resume.pdf">
+            download="Harini_Resume.pdf">
             Resume
           </a>
         </div>
