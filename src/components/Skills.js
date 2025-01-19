@@ -66,7 +66,7 @@ function Skills() {
         </li>
       </ul>
       <p>
-        I am a Software Engineer at Bank Of America.I daily upskill myself with various
+        I am Software Engineer at Bank Of America.I daily upskill myself with various
         techstack in Software domain👨‍💻 by referring some of the good articles from internet, Notably from daily.dev🙂.I am currently
         working in a team at C# related domain.
         Last but not the least, I have great interest and passion in delivering and articulating my thought process by means of public speaking.
