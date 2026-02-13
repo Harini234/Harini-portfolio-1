@@ -155,7 +155,7 @@ function Header() {
               onClick={(e) => handleNavigation(e, "tedx-experience")}
             >
               <span>🎤</span>
-              <span>TEDx_Experience</span>
+              <span>TedxExperience</span>
             </a>
           </li>
           <li>

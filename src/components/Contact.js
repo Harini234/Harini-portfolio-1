@@ -10,7 +10,7 @@ function Contact() {
       I’m always excited to explore new opportunities and engage in meaningful conversations. Whether you're considering a collaboration, have inquiries about my work, or simply want to connect, feel free to reach out. I look forward to hearing from you and building something great together!
       </p>
       <form
-        action="mailto:viswanathantm1970@gmail.com.com"
+        action="mailto:viswanathantm1970@gmail.com"
         method="POST"
         encType="text/plain"
       >

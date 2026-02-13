@@ -9,7 +9,7 @@ function Footer() {
         <p>&copy; 2024 Harini Viswanathan</p>
         <div className="social-media">
           <a
-            href="https://www.linkedin.com/in/harini-viswanathan-60947321b/"
+            href="https://www.linkedin.com/in/harini-viswanathan01/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -22,7 +22,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="https://github.com/Har238"
+            href="https://github.com/Harini234/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
