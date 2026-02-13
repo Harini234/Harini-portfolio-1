@@ -1,7 +1,7 @@
 import React from "react";
-import "./TEDx_Experience.css";
+import "./TedxExperience.css";
 
-function TEDx_Experience() {
+function TedxExperience() {
   const tedxDescription = `
 TEDx Speaking Experience:
 I had the privilege of speaking at TEDx about "Educated But Not Empowered : The Illusion Of Making Choices". This experience was transformative and allowed me to 
@@ -17,7 +17,7 @@ contributed to my professional growth.
       <div className="tedx-container">
         <div className="tedx-image-column">
           <img 
-            src="/images/TEDx_Harini.jpeg" 
+            src="/images/TedxHarini.jpeg" 
             alt="TEDx Speaking Experience" 
             className="tedx-image"
           />
@@ -30,4 +30,4 @@ contributed to my professional growth.
   );
 }
 
-export default TEDx_Experience;
+export default TedxExperience;

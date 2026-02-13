@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import TEDx_Experience from "./components/TedxExperience";
+import TedxExperience from "./components/TedxExperience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import StarryBackground from "./components/StarryBackground";
