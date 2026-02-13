@@ -150,6 +150,15 @@ function Header() {
             </a>
           </li>
           <li>
+            <a
+              href="#tedx-experience"
+              onClick={(e) => handleNavigation(e, "tedx-experience")}
+            >
+              <span>🎤</span>
+              <span>TEDx_Experience</span>
+            </a>
+          </li>
+          <li>
             <a href="#contact" onClick={(e) => handleNavigation(e, "contact")}>
               <span>📞</span>
               <span>Contact Me</span>

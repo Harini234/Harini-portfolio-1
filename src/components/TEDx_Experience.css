@@ -1,0 +1,152 @@
+/* TEDx Experience Section */
+#tedx-experience {
+  padding: 60px 20px;
+}
+
+/* Heading for the TEDx Experience section */
+#tedx-experience h1 {
+  font-size: 3rem;
+  color: #00a8a8;
+  margin-bottom: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  animation: fadeInDown 1.5s ease-out;
+}
+
+/* Two-column container */
+.tedx-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left column - Image */
+.tedx-image-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.tedx-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 168, 168, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInLeft 1.5s ease-out;
+}
+
+.tedx-image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 32px rgba(0, 168, 168, 0.5);
+}
+
+/* Right column - Description */
+.tedx-description-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+#tedx-experience p {
+  font-size: 1.1rem;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  text-align: justify;
+  white-space: pre-wrap;
+  animation: fadeInRight 1.5s ease-out;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #tedx-experience {
+    padding: 40px 20px;
+  }
+
+  #tedx-experience h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+
+  .tedx-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tedx-image-column {
+    min-width: unset;
+  }
+
+  .tedx-image {
+    max-width: 350px;
+  }
+
+  .tedx-description-column {
+    min-width: unset;
+  }
+
+  #tedx-experience p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  #tedx-experience h1 {
+    font-size: 1.8rem;
+  }
+
+  #tedx-experience p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .tedx-container {
+    gap: 20px;
+  }
+
+  .tedx-image {
+    max-width: 280px;
+  }
+}
+
+/* Animation keyframes */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
